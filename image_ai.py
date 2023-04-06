@@ -1,5 +1,4 @@
-from api_keys import open_ai
-import openai
+
 import datetime
 import urllib.request
 from PIL import Image
@@ -11,7 +10,7 @@ from PIL import Image
 # image_size: 256x256, 512x512, or 1024x1024 pixels.
 # path: Example "C:\\Users\\politimax\\theaihub\\hub\\Media\\" 
 
-OPENAI_KEY = open_ai()
+OPENAI_KEY = "Place Key Here"
 SAVE_PATH = "C:\\Users\\The Computer Depot\\Documents\\theaihub\\Media\\"
 
 def create_image(prompt_text,image_size):
