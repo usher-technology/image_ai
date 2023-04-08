@@ -11,7 +11,7 @@ from PIL import Image
 # path: Example "C:\\Users\\politimax\\theaihub\\hub\\Media\\" 
 
 OPENAI_KEY = "Place Key Here"
-SAVE_PATH = "C:\\Users\\The Computer Depot\\Documents\\theaihub\\Media\\"
+SAVE_PATH = "C:\\example\\example\\example\\folder\\Media\\"
 
 def create_image(prompt_text,image_size):
     now = datetime.datetime.now()
@@ -102,6 +102,5 @@ def create_variation_path(data,image_size,path):
     #create_image("picture of a tiger", "256x256")
    
 #Example 3: Create image variation
-
-image = create_image("picture of a dragon", "256x256")
-create_variation(image,"256x256")
+#image = create_image("picture of a dragon", "256x256")
+#create_variation(image,"256x256")
