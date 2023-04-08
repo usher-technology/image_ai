@@ -4,7 +4,7 @@ Created by Bertran Usher
 Use image_ai to generate or manipulate AI images with OpenAI's DALL-E Image Generation API. OpenAI API KEY REQUIRED.
 
 
-**Summary**: The aim of image_ai is to make OpenAI's image generation API accessible through simple and customizable functions.Usei to generate or manipulate ai images with openai’s DALL·E Image generation api. 
+**Summary**: The aim of image_ai is to make OpenAI's image generation API accessible through a simple and customizable function. Use image_ai to generate or manipulate ai images with openai’s DALL·E Image generation api. 
 
 **image_ai creates an image using OpenAI's API**. Each function takes two or three parameters, prompt_text, image_size, and/or path. It then creates a filename based on the current date and time. It then uses the OpenAI API to create an image based on the prompt_text and image_size parameters. It then prints the response from the API, generates the A.I. image, prints the URL, and downloads the image to the filename. Finally, it opens the image and returns the filename.
 
